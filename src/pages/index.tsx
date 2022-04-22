@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <>
-      <h1>Olá mundo</h1>
-    </>
+    <div className="flex justify-center items-center h-screen">
+      <h2>Olá mundo</h2>
+    </div>
   );
 };
 
