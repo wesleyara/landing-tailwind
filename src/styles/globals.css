@@ -5,8 +5,9 @@
 :root {
   /* UI & surface colors */
 
-  --bg-primary: #ffffff;
-  --bg-secondary: #8c8c8c;
+  --bg-primary: hsl(0, 0%, 98%);
+  --bg-secondary: hsl(0, 0%, 41%);
+  --bg-tertiary: hsl(0, 0%, 8%)
 
   --text-primary: #242424;
   --text-secondary: #585858;
@@ -26,6 +27,14 @@
 
 html,
 body {
-  font-family: Poppins;
+  font-family: "Epilogue";
   @apply bg-primary text-primary overflow-x-hidden;
+}
+
+.main {
+  flex: 1.3;
+}
+
+.aside {
+  flex: 1;
 }
