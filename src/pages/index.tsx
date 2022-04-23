@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
+import { Header } from "../components/Header";
+import { Main } from "../components/Main";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h2>Olá mundo</h2>
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   );
 };
 
