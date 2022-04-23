@@ -5,8 +5,8 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    display: ['Poppins', 'system-ui', 'sans-serif'],
-    body: ['Poppins', 'system-ui', 'sans-serif'],
+    display: ['Epilogue', 'system-ui', 'sans-serif'],
+    body: ['Epilogue', 'system-ui', 'sans-serif'],
     extend: {
       colors: {
         brand: {
